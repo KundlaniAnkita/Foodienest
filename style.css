@@ -1,0 +1,51 @@
+ #m1,#m2 #mh{
+    color: #3b503b ;
+    animation-name: m;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes m{
+    from{color: #3b503b ;}
+    to{color: #d80e00a8;}
+    }  
+    #m1{
+        text-align: center;
+    }
+.popup{
+    background-color: rgb(167, 165, 7);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border:3px solid #f1f1f1;
+    z-index: 9;
+} 
+.jus{
+    text-align: center;
+}
+@media(max-width:786px) {
+    img.im1{
+        /* width:100px; */
+          display: none;  
+         /* position: absolute;
+         top: 23.7%;
+         right: 122px; */
+        }
+    
+    div #m1{
+        text-align: center;
+        margin-left: -138px;
+       
+        white-space: nowrap;
+        
+    }
+    img .imm{
+        margin-left: 190px;
+    }
+
+}
+@media(max-width:280px){
+    img.im1{
+        display: none;
+    }
+}

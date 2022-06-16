@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Festive&family=Fredoka+One&family=Open+Sans&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Festive&family=Fredoka+One&family=Ms+Madi&family=Open+Sans&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Festive&family=Fredoka+One&family=Open+Sans&family=Rowdies:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="index.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: rgb(218, 216, 132);
+    }
+    nav{
+      background-color: rgb(218, 216, 132);;
+    }
+   
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <script>
+      function openF(){
+        document.getElementById("myForm").style.display ="block";
+      }
+      function closeF(){
+        document.getElementById("myForm").style.display ="none";
+      }
+    
+  </script>
+</head>
+<title>Foodie Nest</title>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        <!-- </svg> -->
+        <!-- <span class="ml-3 text-xl">FooDie NeSt</span> -->
+        <img class="im1" style="border-radius: 25%;"
+          src="https://tse1.mm.bing.net/th?id=OIP.KHb4G8Hbc6s5a-5dEMBbXwHaEm&pid=Api&P=0&w=207&h=106" alt="">
+        <div class="ml-3 text-xl" id="m1" 
+        style="font-family: 'Cookie', cursive; font-weight: 500;color: #3b503b ; font-size: 404%; width: 0px;line-height: 57px;">FooDie NeSt</div>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="/">Home</a>
+        <a class="mr-5 hover:text-gray-900" href="about.html">About</a>
+        <a class="mr-5 hover:text-gray-900" href="menu.html">Menu</a>
+        <a class="mr-5 hover:text-gray-900" href="contact.html">Contact</a>
+      </nav>
+      <button onclick="document.getElementById('middle').scrollIntoView();"
+        class="inline-flex items-center bg-green-100 border-0 py-1 px-3 focus:outline-none hover:bg-orange-200 rounded text-base mt-4 md:mt-0">View Gallery
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <!-- <section>
+    <div class="ml-3 text-xl" id="m1" 
+    style="font-family: 'Cookie', cursive; font-weight: 500;color: #3b503b ; font-size: 404%; width: 0px;line-height: 57px;">FooDie NeSt</div>
+  
+  </section> -->
+ 
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 style="font-family: 'Cookie'; font-size: 260%; " class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" id="m7">Pickup or delivery from 
+          <br class="hidden lg:inline-block">restaurants near you
+        </h1>
+        <p class="mb-8 leading-relaxed" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The Foodie Nest is a Northern Italian restaurant with an emphasis on quality ingredients and precision cooking. The vegetable-forward dishes pay tribute to the food of Milan with a menu that utilizes the bounty of Northern California produce and pays careful attention to detail – treating quality ingredients with respect and allowing them to shine in their best iterations.
+
+           Our goal is to continue to provide a service to our community, to offer security to our staff, and to support our local food sources and suppliers.</p><br>
+          <!-- <p id="m2" style="font-family: 'Cookie', cursive; font-weight: 500;color: #3b503b; font-size: 234% ;">Sign Up To Our e-Caterers Club Now</p> -->
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=820&h=600&dpr=2">
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font" id="middle">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4" style="font-family: 'Cookie'; font-size: 260%;">Here is the short glimpse of the services we provide</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Help users discover your place by creating a listing on Foodie Nest.And deliver orders to millions of customers with ease.Manage orders on our partner app, web dashboard or API partners</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500&h=300">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=501&h=301">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://images.pexels.com/photos/4393528/pexels-photo-4393528.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600&h=360">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-2789328-1920w.jpeg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://tse1.mm.bing.net/th?id=OIP.KEd0Rpi3XXIQhysDUgwlywHaEK&pid=Api&P=0&w=306&h=172">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://assets.cntraveller.in/photos/60ba1e14002baf698cc674c3/master/pass/Food-Delivery-COVID-19-measures.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="jus">
+    
+    <p id="m2" style="font-family: 'Cookie', cursive; font-weight: 500;color: #3b503b; font-size: 334% ;">Sign Up To Our e-Caterers Club Now</p>
+    <button  onclick="openF()"
+              class="inline-flex text-white bg-green-900 border-0 py-2 px-8 ml-10 focus:outline-none hover:bg-orange-600 rounded text-lg">CLICK HERE</button>
+  </div>
+
+  <div class="popup" id="myForm">
+
+    <section class="text-gray-600 body-font" id="bottom">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+          <h1 class="title-font font-medium text-3xl text-gray-900" style="font-family: 'Cookie'; font-size: 230%;">We will send you a link, open it on your phone to download the app.</h1>
+          <p class="leading-relaxed mt-4">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © FoodieNest™ Ltd. All rights reserved.</p>
+        </div>
+        <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0" >
+          <h2 class="text-gray-900 text-lg font-medium title-font mb-5" style="font-family: 'Cookie;">Sign Up</h2>
+  
+          <form action="http://localhost:121/data/index.php" method="post" id="myForm">
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="full-name" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
+            </div>
+            <div class="relative mb-4">
+              <label for="password" class="leading-7 text-sm text-gray-600">Password</label>
+              <input type="password" id="email" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
+            </div>
+            <button name="save" class="text-white bg-green-900 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg" href="about.html" onclick="alert(' Thank you for signing up for email updates')">Submit</button>
+          </form>
+          <p class="text-xs text-gray-500 mt-3">A free app that allows you to manage your Foodie Nest listing directly from your smartphone</p>
+        </div>
+        <button onclick="closeF()" 
+            class="inline-flex text-white bg-green-900 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg" >CLOSE</button>
+      </div>
+    </section>
+  </div>
+  <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+    <!-- <a class="text-indigo-500">example@email.com</a> -->
+    <!-- <img class="imm" style="margin-left: 70px;" src="myqr.png" alt="Qr-Scan"> -->
+    <p class="leading-normal my-5">We look forward to seeing you
+
+      <br>Saint Cloud, MN 56301
+    </p>
+    <span class="inline-flex">
+      <a class="text-gray-500" href="https://www.facebook.com/">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-4 text-gray-500" href="https://twitter.com/">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-4 text-gray-500" href="https://instagram.com/">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-4 text-gray-500" href="https://wa.link/nmoyn5">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+        </svg>
+      </a>
+    </span>
+  </div>
+  
+
+</body>
+
+</html>
